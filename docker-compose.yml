@@ -10,8 +10,14 @@ services:
            - ./php_app:/php_app
        links:
            - php_app
+           - node_app
    php_app:
        build: php_app
        container_name: php_app
        volumes:
            - ./php_app:/php_app
+   node_app:
+        build: node_app
+        container_name: node_app
+        volumes: 
+            - ./node_app:/node_app

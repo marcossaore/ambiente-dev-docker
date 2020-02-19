@@ -1,0 +1,20 @@
+{
+  "name": "node_app_rest_api",
+  "version": "1.0.0",
+  "description": "Exemplo de api que comunicará com NGINX usando proxy reverso",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm install; nodemon --legacy-watch",
+    "start": "node ./app.js"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "express-group-routes": "1.1.0"
+  },
+  "author": "Marcos Soares",
+  "license": "ISC"
+}
