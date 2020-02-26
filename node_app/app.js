@@ -7,7 +7,7 @@ const app = express()
 
 apiRouter.get("/healthCheck", (req, res) =>{
     res.status(200).json({
-        message : "api is running GET"
+        message : "api is running..."
     })
 })
 
